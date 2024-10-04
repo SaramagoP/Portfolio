@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- Encodage standart des caractères  -->
+    <meta charset="UTF-8" />
+
+    <!-- Minimum de responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- La description de chaque page  -->
+    <meta
+      name="description"
+      content="Portfolio de Pedro Saramago - Développeur web"
+    />
+
+    <!-- Les balises utiles pour le SEO  -->
+    <meta name="author" content="Pedro" />
+    <meta name="publisher" content="Pedro" />
+
+    <!-- Le logo dans l'onglet -->
+    <link rel="shortcut icon" href="img/logo.png" />
+
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- La feuille de style de Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Ma feuille de style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Le titre de la page dans l'onglet -->
+    <title>Pedro Saramago - Portfolio de Développeur Web</title>
+  </head>
+
+  <body>
+    <header>
+      <!-- Profile -->
+      <div class="profile">
+        <img src="img/profile.png" alt="Photo de la page d'accueil" />
+        <h1>Pedro Saramago</h1>
+        <div class="social-icons">
+          <a href="https://github.com/SaramagoP" target="_blanc"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/pedro-saramago-01a9bb39/"
+            target="_blanc"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://x.com/SaramagoP" target="_blanc"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/ricsmag/" target="_blanc"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.facebook.com/pedro.saramago1" target="_blanc"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+      </div>
+
+      <!-- NavBar -->
+      <nav>
+        <ul>
+          <li>
+            <a href="#home" class="active"
+              ><i class="fa-solid fa-house"></i> Accueil</a
+            >
+          </li>
+          <li>
+            <a href="#about"><i class="fa-solid fa-user"></i> Á Propos</a>
+          </li>
+          <li>
+            <a href="#skill"><i class="fa-solid fa-code"></i> Compétences</a>
+          </li>
+          <li>
+            <a href="#resume"><i class="fa-solid fa-file"></i> Résumé</a>
+          </li>
+          <li>
+            <a href="#portfolio"
+              ><i class="fa-solid fa-briefcase"></i> Portfolio</a
+            >
+          </li>
+          <li>
+            <a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      
+      <!-- Footer -->
+      <div class="footer">
+        <p>
+          &copy; Copyrigth 2024 <br />
+          Portfolio Pedro Saramago <br />Tous les droits réservés.
+        </p>
+      </div>
+    </header>
+
+    <!-- Mobile Nav Toggle -->
+    <i class="fa-solid fa-bars" id="MenuBtn"></i>
+
+    <!-- All Sections Content -->
+    <main>
+      <!-- Home Section -->
+      <section id="home">
+        <div class="home-row">
+          <h1>Pedro Saramago<span>.</span></h1>
+          <p>Je suis <span class="auto-input"></span></p>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about">
+        <h1 class="sub-heading">Á Propos</h1>
+        <div class="divider"></div>
+        <p class="sub-para">
+          J'ai realisé une reconversion professionnelle en tant que Développeur
+          Web et Web Mobile avec l'organisme NextFormation. Au cours de cette
+          formation, j'ai appris à maîtriser Next.js, un framework basé sur
+          React.js, pour créer des interfaces front-end dynamiques et
+          performantes, ainsi que Node.js pour le développement back-end, me
+          permettant ainsi de concevoir des applications web complètes, robustes
+          et évolutives. Parallèlement, j'ai approfondi mes compétences en
+          Symfony, un framework PHP réputé pour sa flexibilité et son efficacité
+          dans le développement d'applications backend.
+        </p>
+
+        <p class="sub-para">
+          Je suis également familier avec GitHub pour la gestion de versions, ce
+          qui me permet de travailler de manière structurée et collaborative au
+          sein d'équipes de développement. En matière de modélisation et de
+          conception de systèmes d'information, j'ai acquis une solide
+          expérience avec les méthodologies Merise, ainsi que dans la
+          Modélisation Conceptuelle des Données (MCD). Enfin, ma formation m'a
+          permis de développer des compétences en gestion de projet grâce à
+          l'utilisation des méthodes Agile et Scrum, favorisant une approche
+          itérative et collaborative du développement.
+        </p>
+
+        <div class="about-col">
+          <!-- img-col -->
+          <div class="img-col">
+            <img src="img/fond.png" alt="photo de la section about" />
+          </div>
+
+          <!-- information -->
+          <div class="info-col">
+            <h2>Développeur Web</h2>
+            <p>
+              Je suis passionné par l'informatique et désireux d'apprendre, je
+              suis prêt à développer mes compétences et à m'investir pleinement
+              dans des projets concrets. Motivé, curieux et rigoureux, je
+              souhaite rejoindre une équipe dynamique où je pourrais contribuer
+              tout en continuant à progresser et à approfondir mes
+              connaissances.
+            </p>
+            <div class="icon-list-col">
+              <!-- Left Side List -->
+              <div class="icon-list">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i>
+                    <strong>Prénom & Nom:</strong> <span>Pedro Saramago</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i>
+                    <strong>Nationalité:</strong> <span>Portugais</span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Right Side List -->
+              <div class="icon-list">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i>
+                    <strong>Âge:</strong> <span>40</span>
+                  </li>
+
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i>
+                    <strong>Langues:</strong>
+                    <span>Français, Anglais, Portugais</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="cv">
+              <a href="cv/CV.pdf" class="btn btn-home" target="_blank">
+                Télécharger CV <i class="fa-solid fa-download"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section id="skill">
+        <h1 class="sub-heading">Compétences</h1>
+        <div class="divider"></div>
+        <ul class="sub-para">
+          <li>
+            Élaboration de cahiers des charges et de spécifications
+            fonctionnelles et techniques, incluant des wireframes, des
+            maquettes, des cas fonctionnels, etc.
+          </li>
+          <li>
+            Modélisation de données avec la méthode Merise et gestion de bases
+            de données relationnelles.
+          </li>
+          <li>
+            Connaissance des pratiques de collaboration au sein d'équipes de
+            développement, utilisant Git pour la gestion de versions (branches,
+            correctifs, revue de code, etc.).
+          </li>
+          <li>
+            Compétences en gestion de projet, notamment avec la méthode Agile
+            Scrum, et capacité à travailler en cycles courts pour améliorer
+            continuellement le produit en collaboration avec l’équipe.
+          </li>
+          <li>
+            Connaissance de JavaScript permettant d'ajouter des fonctionnalités
+            interactives aux pages web, incluant la manipulation du DOM, la
+            gestion des événements et la création d’animations.
+          </li>
+          <li>
+            Connaissance des bibliothèques et frameworks, notamment Next.js pour
+            le développement d'applications React, et Bootstrap pour la
+            conception responsive. Familiarité avec des bibliothèques comme
+            jQuery et la plateforme Node.js pour le développement back-end.
+          </li>
+          <li>
+            Création et mise en œuvre d'applications web basées sur Symfony,
+            intégrant des opérations CRUD, des mécanismes d'authentificatio, des
+            migrations, etc.
+          </li>
+        </ul>
+
+        <div class="skill-row">
+          <!-- skill 1 -->
+          <div class="skill-box">
+            <div class="skill-info">
+              <i class="fab fa-html5"></i>
+              <h2>HTML</h2>
+            </div>
+          </div>
+
+          <!-- skill 2 -->
+          <div class="skill-box">
+            <div class="skill-info">
+              <i class="fab fa-css3-alt"></i>
+              <h2>CSS</h2>
+            </div>
+          </div>
+
+          <!-- skill 3 -->
+          <div class="skill-box">
+            <div class="skill-info">
+              <i class="fab fa-js"></i>
+              <h2>JavaScript</h2>
+            </div>
+          </div>
+
+          <!-- skill 4 -->
+          <div class="skill-box">
+            <div class="skill-info">
+              <i class="fab fa-bootstrap"></i>
+              <h2>Bootstrap</h2>
+            </div>
+          </div>
+
+          <!-- skill 5 -->
+          <div class="skill-box">
+            <div class="skill-info">
+              <i class="fab fa-react"></i>
+              <h2>React</h2>
+            </div>
+          </div>
+
+          <!-- skill 6 -->
+          <div class="skill-box">
+            <div class="skill-info">
+              <i class="fab fa-php"></i>
+              <h2>PHP</h2>
+            </div>
+          </div>
+
+          <!-- skill 7 -->
+          <div class="skill-box">
+            <div class="skill-info">
+              <i class="fab fa-symfony"></i>
+              <h2>Symfony</h2>
+            </div>
+          </div>
+
+          <!-- skill 8 -->
+          <div class="skill-box">
+            <div class="skill-info">
+              <i class="fab fa-github"></i>
+              <h2>GitHub</h2>
+            </div>
+          </div>
+
+          <!-- skill 9 -->
+          <div class="skill-box">
+            <div class="skill-info">
+              <i class="fab fa-figma"></i>
+              <h2>Figma</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RESUME SECTION -->
+
+      <section id="resume">
+        <h1 class="sub-heading">Résumé</h1>
+        <div class="divider"></div>
+        <p class="sub-para">
+          Voici un aperçu de mon parcours en tant que développeur Web passionné,
+          incluant mon expérience professionnelle et mon éducation.
+        </p>
+
+        <div class="resume-row">
+          <!-- Left Col -->
+          <div class="resume-cols">
+            <h2>Éducation</h2>
+            <div class="my-edu">
+              <h3>Bac+2 Développeur Web et Web Mobile</h3>
+              <span class="sp-box">2023 - 2024</span>
+              <p>NextFormation</p>
+            </div>
+
+            <div class="my-edu">
+              <h3>
+                Licence en Psychologie du Travail et des Ressources Humaines
+              </h3>
+              <span class="sp-box">2003 - 2009</span>
+              <p>Institut Supérieur Jean Piaget Viseu (Portugal)</p>
+            </div>
+          </div>
+
+          <!-- Right Col -->
+          <div class="resume-cols">
+            <h2>Expérience Professionnelle</h2>
+            <div class="pro-exp">
+              <p>
+                Actuellement à la recherche d'opportunités professionnelles, je
+                suis motivé à mettre en pratique mes compétences et ma passion
+                pour le développement web. Bien que je ne dispose pas encore
+                d'une expérience professionnelle formelle, j'ai acquis des
+                connaissances et des compétences à travers mes études, projets
+                personnels, et ma formation. Je suis déterminé à rejoindre une
+                équipe dynamique où je pourrai contribuer activement tout en
+                continuant à apprendre et à évoluer.
+              </p>
+            </div>
+
+            <!-- <div class="pro-exp">
+                <h3>Développement web</h3>
+                <span class="sp-box">2023 - 2024</span>
+                <p>Paris, France</p>
+                <ul>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestias soluta deleniti!</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestias soluta deleniti!</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestias soluta deleniti!</li>
+                </ul>
+              </div> -->
+          </div>
+        </div>
+      </section>
+
+      <!-- PORTFOLIO SECTION -->
+      <section id="portfolio">
+        <h1 class="sub-heading">Portfolio</h1>
+        <div class="divider"></div>
+        <p class="sub-para">
+          Voici une sélection de mes projets, illustrant mon parcours et mon
+          savoir-faire.
+        </p>
+
+        <div class="port-row">
+          <!-- Portfolio item-1 -->
+          <div class="port-item">
+            <div class="port-img">
+              <img src="img/projet.png" alt="Photo de la section portfolio" />
+            </div>
+            <div class="port-info">
+              <h4>RoastBeans Café (site web e-commerce fictive)</h4>
+              <p>
+                Ce site, réalisé dans le cadre de mon projet d'étude, est le
+                fruit d'un processus de développement qui m'a permis de mettre
+                en pratique et d'approfondir les compétences acquises durant ma
+                formation Développeur Web et Web Mobile. Réalisé avec Symfony et
+                enrichi par des fonctionnalités dynamiques en JavaScript, il
+                intègre également Bootstrap pour une mise en page réactive et
+                esthétique, ainsi qu'une gestion complète de l'administration.
+                La sécurité a été une priorité,garantissant la protection des
+                données utilisateurs et des contenus. Ce projet a renforcé mes
+                compétences techniques tout en nourrissant ma passion pour le
+                développement web, mettant en lumière l'importance de
+                l'interaction entre le front-end et le back-end.
+              </p>
+              <a href="https://psdww.com/" target="_blanc"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Portfolio item-2 -->
+          <div class="port-item">
+            <div class="port-img">
+              <img src="img/projet2.png" alt="Photo de la section portfolio" />
+            </div>
+            <div class="port-info">
+              <h4>Portfolio (ce site)</h4>
+              <p>
+                Ce portfolio a été entièrement conçu en utilisant HTML, CSS et
+                JavaScript, démontrant ainsi mes compétences dans la création de
+                sites web interactifs et responsifs. J'ai pris soin d'appliquer
+                les meilleures pratiques en matière de design web, en optimisant
+                l'ergonomie et les performances pour offrir une expérience
+                utilisateur fluide.
+              </p>
+              <a href="https://psdww.com/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact">
+        <h1 class="sub-heading">Contact</h1>
+        <div class="divider"></div>
+        <p class="sub-para">
+          N'hésitez pas à me contacter en remplissant le formulaire ci-dessous.
+        </p>
+
+        <div class="contact-row">
+          <!-- Left Col -->
+          <div class="contact-left">
+            <!-- Email Box -->
+            <div class="icon-box">
+              <div class="icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="info">
+                <h4>Email:</h4>
+                <p>pedrosaramago1@gmail.com</p>
+              </div>
+            </div>
+
+            <!-- Call Box -->
+            <div class="icon-box">
+              <div class="icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="info">
+                <h4>Téléphone:</h4>
+                <p>+33 (0)6 51 36 80 09</p>
+              </div>
+            </div>
+
+            <!-- Location Box -->
+            <div class="icon-box">
+              <div class="icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="info">
+                <h4>Adresse:</h4>
+                <p>Senlis, Oise, France</p>
+              </div>
+            </div>
+
+            <!-- Image -->
+            <div class="img-contact">
+              <img src="img/programming2.jpg" alt="Contact Image" />
+            </div>
+          </div>
+
+          <!-- Right Col -->
+          <div class="contact-right">
+            <form action="https://formspree.io/f/xqazryov" method="POST">
+              <input
+                type="text"
+                name="firstname"
+                id="firstname"
+                placeholder="Prénom"
+                required
+              />
+              <input
+                type="text"
+                name="lastname"
+                id="lastname"
+                placeholder="Nom"
+                required
+              />
+              <input
+                type="text"
+                name="company"
+                id="company"
+                placeholder="Entreprie"
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+              />
+              <textarea
+                name="msg"
+                id="msg"
+                rows="9"
+                placeholder="Message"
+                required
+              ></textarea>
+              <input type="submit" value="Envoyer" class="btn-contact" />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Typed.JS File (For Typing Effect) -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Bootstrap File -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Main JS File -->
+    <script src="script.js"></script>
+  </body>
+</html>
